@@ -23,10 +23,6 @@ li{
     margin: 5px;
 }
 
-img{
-    max-height: 400px;
-    max-width:400px;
-}
 
 .logo{
     display: flex;
@@ -92,8 +88,13 @@ img{
     width: 400px;
 }
 
-.bugpic{
-    margin-left: 25px;
+.buggy{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    object-fit: cover;
+    max-height: 400px;
+    max-width: auto;
 }
 
 button, .smallsection{
@@ -143,6 +144,8 @@ button{
 .bestpics{
     aspect-ratio: 1/1;
     object-fit:cover;
+    max-height: 400px;
+    max-width:400px;
 }
 
 
