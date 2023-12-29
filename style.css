@@ -27,7 +27,6 @@ li{
 .logo{
     display: flex;
     aspect-ratio: 1/1;
-    flex-shrink: 0;
     max-width: 75px;
 }
 
@@ -40,7 +39,7 @@ li{
 
 .text, .besttext, .herotext{
     display: flex;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
 }
 
 .headertext, .herotext{
@@ -74,6 +73,7 @@ li{
 .section1{
     display: flex;
     flex:auto;
+    flex-flow: row wrap;
     justify-content: center;
     margin-top: 100px;
     margin-bottom: 100px;
@@ -137,6 +137,8 @@ button{
 
 .allwork{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     gap:16px;
     max-width: 100%;
 }
